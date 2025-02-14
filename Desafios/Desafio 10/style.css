@@ -1,0 +1,99 @@
+body {
+    background-color: aqua;
+}
+
+header{
+   background-image: linear-gradient(to bottom,rgb(117, 235, 117), rgb(79, 161, 79), rgb(67, 119, 67), rgb(36, 77, 36));
+   margin-bottom:0px;
+   margin-top: 0px;
+}
+
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+}
+
+nav > a{ 
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+nav > a:hover{
+    color: rgb(197, 176, 176);
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: ;
+    margin:auto;
+    border-radius: 5px;
+
+}
+
+main > p {
+    text-indent: 15px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main > h1 {
+    color: green;
+    margin-left: 15px;
+}
+
+main > h2 {
+    color: green;
+    margin-left: 15px;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.274), rgba(0, 128, 0, 0.11), white);
+}
+
+article {
+    background-color: white;
+    width: 1150px;
+    height: 650;
+    margin: auto;
+}
+
+#video > iframe {
+    width: 550px;
+    height: 300px;
+    text-align: center;
+}
+
+article > aside > h3 {
+    text-align: left ;
+    text-indent: 3px;
+}
+
+article > aside > p {
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+aside > h3 {
+    background-color: rgba(0, 128, 0, 0.712);
+    color: white;
+    
+}
+
+aside > ul{
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.658);
+}

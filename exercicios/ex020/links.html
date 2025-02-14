@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="../aperitivos/FIIVICON.ico" type="image/x-icon">
+    <style>
+
+        /*SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-elementos
+        >   = clildren
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(196, 183, 183);
+        }
+
+        a:hover {
+            color: rgb(17, 0, 255);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(163, 0, 122);
+        }
+
+        .especial{
+            background-color: rgba(100, 9, 73, 0.411);
+        }
+
+        .especial::before{
+            content: '-> ';
+            color: white;
+        }
+        .especial::after{
+            content:' <-';
+            color: white;
+        }
+
+        p:active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Repósitorio GitHub</a></li>
+
+        <li><a href="https://youtube.com/cursoemvideo/" class="especial">Canal do Youtube</a></li>
+
+        <li><a href="https://www.cursoemvideo.com">Site do Curso em Video</a></li>
+
+        <p><em><strong>:active</strong></em> Aplica um estilo a um elemento quando ele está sendo ativado, geralmente quando o usuário clica nele.</p>
+    </ul>
+</body>
+</html>
