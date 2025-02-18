@@ -59,6 +59,7 @@ header > p {
 
 nav {
     background-color: #F45D01;
+    padding: 3px;
 }
 
 nav > a {
@@ -71,5 +72,5 @@ nav > a {
 }
 
 #marginleftmenu {
-    margin: 0px 8px 0px 8px;
+    margin-left: 13px;
 }
