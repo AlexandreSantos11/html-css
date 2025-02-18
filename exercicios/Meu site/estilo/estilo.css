@@ -48,13 +48,13 @@ header > h1 {
 }
 
 header > p {
+    font-family: arial, sans-serif;
     color: white;
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 19px;
     text-shadow: 2px 2px 4px black;
-    font-family: arial, sans-serif;
 }
 
 nav {
@@ -74,3 +74,4 @@ nav > a {
 #marginleftmenu {
     margin-left: 13px;
 }
+
