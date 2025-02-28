@@ -4,4 +4,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositorio!
 
-<a href="https://alexandresantos11.github.io/html-css/exercicios/D26/index.html">Executar o Desafio 26</a>
+<a href="https://alexandresantos11.github.io/html-css/exercicios/ex026/index.html">Executar o Desafio 26</a>
