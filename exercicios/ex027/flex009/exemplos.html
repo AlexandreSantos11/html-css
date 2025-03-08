@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexibile Box</title>
+    <style>
+        div.container {
+            background-color: lightsalmon;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.itens {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            flex-shrink: 0;
+        }
+
+        /* flex: flex-grow; + flex-shrin; + flex-basis; 
+
+        #a {
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 1;
+
+            flex: 0 1 150px;
+        }
+
+        #b {
+            flex-basis: 150px;
+            flex-grow: 2;
+            flex-shrink: 0;
+
+            flex: 2 0 150px;
+        }
+
+        #c {
+            flex-shrink: 150px;
+            flex-grow: 1;
+            flex-shrink: 2;
+
+            flex: 1 2 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="itens" id="a">A</div>
+        <div class="itens" id="b">B</div>
+        <div class="itens" id="c">C</div>
+    </div>
+</body>
+
+</html>

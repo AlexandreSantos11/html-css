@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        main {
+            position: absolute;
+            background-color: #fff;
+            width: 97%;
+            height: 300px;
+            border-radius: 20px;
+
+            top: 50%;
+            left: 50%;
+            
+            transform: translate(-50%,-50%);
+            display: flex;
+
+            flex-flow: row wrap;
+
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        main > div {
+
+            border: 3px solid blue;
+            padding: 40px;
+            margin: 10px;
+            border-radius: 20px;
+            background-color: yellow;
+            flex-basis: 150px;
+            text-align: center;
+            font-weight: bolder;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border: 3px dashed red;
+        }
+
+        #a {
+            order: 4;
+        }
+
+        #b {
+            order: 0;
+        }
+
+        #c {
+            order: 3;
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 530px) {
+            main {
+                height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="a">9</div>
+        <div id="b">0</div>
+        <div id="c">4</div>
+        <div id="d">0</div>
+    </main>
+</body>
+</html>
